@@ -1,0 +1,230 @@
+.user-data-main-container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 20px auto;
+  margin-top: 250px;
+  height: auto;
+}
+
+.user-data-main-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-data-main-container h3 {
+  margin-top: 30px;
+  color: #555;
+}
+
+.users-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.users-data-table thead {
+  background-color: #525ad9;
+  color: #ffffff;
+}
+
+.users-data-table thead th {
+  padding: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.users-data-table tbody td {
+  padding: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.users-data-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.users-data-table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.no-users-message {
+  text-align: center;
+  color: #888;
+  padding: 20px 0;
+}
+
+.user-card {
+  background: #f9f9f9;
+  border-left: 4px solid #5cb85c;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.loading-text {
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .user-data-main-container {
+    margin-top: 1450px;
+  }
+}
+
+/* Styling for the AdminNav component if it has specific class names */
+.admin-nav {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+}
+
+.admin-nav a {
+  color: #fff;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.admin-nav a:hover {
+  background-color: #555;
+}
+
+/* Button styles for edit/delete actions */
+.button-edit,
+.button-delete {
+  padding: 5px 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.button-edit {
+  background-color: #f0ad4e;
+}
+
+.button-delete {
+  background-color: #d9534f;
+}
+
+.button-edit:hover {
+  background-color: #ec971f;
+}
+
+.button-delete:hover {
+  background-color: #c9302c;
+}
+
+@media (max-width: 768px) {
+  .users-data-table {
+    font-size: 12px;
+  }
+}
+.btn-sus {
+  border: none;
+  height: 30px;
+  width: 70px;
+  padding: 6px;
+  background-color: #fea932;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.7rem;
+}
+.btn-del {
+  border: none;
+  height: 30px;
+  width: 70px;
+  padding: 6px;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.7rem;
+}
+.ride-history-main-container {
+  max-width: 1200px;
+  height: auto;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  margin-top: 450px;
+}
+
+.ride-history-main-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.ride-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+}
+
+.ride-history-table thead {
+  background-color: #525ad9;
+  color: #ffffff;
+}
+
+.ride-history-table th,
+.ride-history-table td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.ride-history-table tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.ride-history-table tbody tr:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.ride-history-table th {
+  position: sticky;
+  top: 0;
+  background-color: #525ad9;
+  z-index: 2;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #555;
+}
+
+.loading-text {
+  text-align: center;
+  margin: 20px 0;
+  color: #666;
+}
+
+.no-rides-message {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .ride-history-table,
+  .ride-history-table th,
+  .ride-history-table td {
+    font-size: 14px;
+  }
+  /* .ride-history-table tbody tr:hover {
+    background-color: #525ad9;
+    color: #fff;
+  } */
+  .ride-history-main-container {
+    padding: 10px;
+    margin-top: 550px;
+  }
+}

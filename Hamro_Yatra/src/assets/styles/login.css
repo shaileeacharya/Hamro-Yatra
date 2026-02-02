@@ -1,0 +1,97 @@
+/* Styles for Login Component */
+.login-container {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 28px;
+  width: 60vw;
+  max-width: 350px;
+  height: 80vh;
+  margin: 20px;
+}
+
+.back-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  background-color: #e5e8ef;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid rgb(41, 40, 40);
+  display: inline-block;
+}
+
+.back-container a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+}
+
+.forgot p {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #0082cd;
+  border: 1px solid;
+}
+.forgot a {
+  color: #0082cd;
+  text-decoration: none;
+}
+.login-container-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.login-form input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.login-container-login img {
+  height: 120px;
+  width: 12vw;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container button {
+  background-color: #525ad9;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+button:hover {
+  background-color: #525ad9;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-container {
+    width: 80vw;
+  }
+  .login-container-login img {
+    height: 160px;
+    width: 60vw;
+  }
+}
